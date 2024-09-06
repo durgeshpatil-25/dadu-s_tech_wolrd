@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dadu's Tech World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\admin\Desktop\dadu's tech word\img\5.png" alt="Dadu's Tech World Logo">
+           <b> <h1><span style="color: rgb(255, 252, 246); "><b>Dadu's Tech World</b> </span></h1></b>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul><br>
+            <input type="text" id="searchBar" placeholder="Search Products" style="width: 200px;height: 20;">
+        </nav>
+    </header>
+
+    <main>
+        <!-- <section id="home">
+            <h2>Welcome to Dadu's Tech World</h2>
+            <p>Your one-stop shop for the latest electronics!</p>
+        </section> -->
+        <section id="hero">
+            <h1> <span style="color: yellow;">Welcome to Dadu's Tech World</span></h1>
+            <p>Your one-stop shop for the latest electronics!</p>
+            <button onclick="shopNow()">Shop Now</button>
+        </section>
+
+        
+        
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <!-- Example Product -->
+                <div class="product-item">
+                    <img src="phone.jfif" alt="Phone" style="size: width: 100px;height: 100px;;">
+                    <h3>Smartphone</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <!-- Add more products here -->
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>apple phone</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>Smartwhach</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>Smartwhach</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>Smartwhach</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>Smartwhach</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>Smartwhach</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="phone.jpg" alt="Phone">
+                    <h3>Smartwhach</h3>
+                    <p>$499.99</p>
+                    <button onclick="addToCart('Smartphone', 499.99)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Shope Founder</h2>
+            <p>At Dadu's Tech World, we specialize in bringing you the best in electronics. Whether it's the latest mobile phone or a high-definition television, we have what you need at prices you'll love!</p>
+            
+            <div class="about-grid">
+                <!-- Example Product -->
+                <div class="about-item">
+                    <img src="main.png" alt="Phone" style="size: width: 280px;height: 280px;;">
+                    <h3>Durgesh Patil</h3>
+                    <!-- <p>$499.99</p> -->
+                    <!-- <button onclick="addToCart('Smartphone', 499.99)">view picture</picture></button> -->
+                </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+            <!-- Add more social links -->
+        </div>
+        <p>&copy; 2024 Dadu's Tech World. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
