@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dadu's Tech World</title>
+    <link rel="stylesheet" href="styles.css">
+   
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\admin\Desktop\dadu's tech word\img\5.png" alt="Dadu's Tech World Logo" style="size: width:500px;height: 80px;;">
+           <h1><b><span style="color: aliceblue;">Dadu's Tech World</span></b></h1></b>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul><br>
+            <input type="text" id="searchBar" placeholder="Search Products" style="width: 300px;height: 20;">
+        </nav>
+    </header>
+
+    <main>
+        <!-- <section id="home">
+            <h2>Welcome to Dadu's Tech World</h2>
+            <p>Your one-stop shop for the latest electronics!</p>
+        </section> -->
+        
+        <section id="hero">
+
+            <h1>Welcome to Dadu's Tech World</h1>
+            <p>Your one-stop shop for the latest electronics!</p>
+            <button onclick="shopNow()">Shop Now</button>
+        </section>
+
+        
+        
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <!-- Example Product -->
+                <div class="product-item">
+                    <img src="phone2.png" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>Smartphone</h3>
+                    <b><p> ₹ 16,000</p></b>
+                    <button id="addToCart1" onclick="addToCart(1)('Smartphone', 499.99)">View More</button>
+                </div>
+                <!-- Add more products here -->
+                <div class="product-item">
+                    <img src="phone.jfif" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>apple phone</h3>
+                   <b> <p>₹ 89,000</p></b>
+                    <button id="addToCart2" onclick="addToCart(2)('Smartphone', 499.99)">View More</button>
+                </div>
+                <div class="product-item">
+                    <img src="whach.png" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>Smartwhach</h3>
+                    <b><p>₹ 16,000</p></b>
+                    <button id="addToCart3" onclick="addToCart(3)('Smartphone', 499.99)">View More</button>
+                </div>
+                <div class="product-item">
+                    <img src="laptop1.png" alt="Phone"  style="size: width: 150px;height: 150px;;">
+                    <h3>Hp Laptop </h3>
+              <b>  <p>₹ 16,000</p> </b>
+                    <button id="addToCart4"  onclick="addToCart(4)('Smartphone', 499.99)">View More</button>
+                </div>
+                <div class="product-item">
+                    <img src="c1.png" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>canon camera</h3>
+                   <b> <p>₹59,000</p></b>
+                    <button id="addToCart5" onclick="addToCart(5)('Smartphone', 499.99)">View More</button>
+                </div>
+                <div class="product-item">
+                    <img src="h1.png" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>hedphones</h3>
+                   <b><p>₹2,000</p></b> 
+                    <button id="addToCart6" onclick="addToCart(6)('Smartphone', 499.99)">View More</button>
+                </div>
+                <div class="product-item">
+                    <img src="t1.png" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>Smart TV</h3>
+                   <b> <p>₹19,000</p></b>
+                    <button id="addToCart7" onclick="addToCart(7)('Smartphone', 499.99)">View More</button>
+                </div>
+                <div class="product-item">
+                    <img src="compu1.png" alt="Phone" style="size: width: 150px;height: 150px;;">
+                    <h3>computers</h3>
+                    <b><p>₹50,000</p></br>
+                    <button id="addToCart8" onclick="addToCart(8)('Smartphone', 499.99)">View More</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2> Founder's</h2>
+            <p>At Dadu's Tech World, we specialize in bringing you the best in electronics. Whether it's the latest mobile phone or a high-definition television, we have what you need at prices you'll love!</p>
+            
+            <!-- <div class="about-grid">
+                 Example Product -->
+                <!-- <div class="about-item">
+                    <img src="main.png" alt="Phone" style="size: width: 280px;height: 280px;;">
+                    <h3>Durgesh Patil</h3>
+                    </div> --> 
+                    <!-- <p>$499.99</p> -->
+                    <!-- <button onclick="addToCart('Smartphone', 499.99)">view picture</picture></button> -->
+                    <div class="leader-container">
+                        <div class="leader-box">
+                            <div class="image-container">
+                                <img src="main1.png" alt="Eknath Shinde">
+                            </div>
+                            <div class="text-container">
+                                <h3>SHRI</h3>
+                                <p>DURGESH PATIL</p>
+                                <span>Data Analyst & biusness Analyst</span>
+                            </div>
+                        </div>
+                        <div class="leader-box">
+                            <div class="image-container">
+                                <img src="f2.png" alt="Devendra Fadnavis">
+                            </div>
+                            <div class="text-container">
+                                <h3>MR,</h3>
+                                <p>AKSHAY BRAMHANE</p>
+                                <span>Safety Manager At Mumbai</span>
+                            </div>
+                        </div>
+                        <div class="leader-box">
+                            <div class="image-container">
+                                <img src="f3.png" alt="Ajit Pawar">
+                            </div>
+                            <div class="text-container">
+                                <h3>MR,</h3>
+                                <p>SUKHANANDAN PATIL</p>
+                                <span>Electrician And Repairing Specialist</span>
+                            </div>
+                        </div>
+                        <div class="leader-box">
+                            <div class="image-container">
+                                <img src="f4.png" alt="Radhakrishna Patil">
+                            </div>
+                            <div class="text-container">
+                                <h3>MR,</h3>
+                                <p>SHUBHAM PATIL</p>
+                                <span>Social media influencer</span>
+                            </div>
+                        </div>
+                        <div class="leader-box">
+                            <div class="image-container">
+                                <img src="#" alt="sunny Patil">
+                            </div>
+                            <div class="text-container">
+                                <h3>MR,</h3>
+                                <p>Sunny Patil</p>
+                                <span>Research Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+			<br>
+			<br>
+			<!-- <div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div> -->
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/durgesh-patil-63bb95303/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/_durgesh_patil_24/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+        <p>&copy; 2024 Dadu's Tech World. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
